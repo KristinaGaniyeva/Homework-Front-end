@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+}
+
+.header, .main {
+    width: 1500px;
+    margin-left: 80px;
+}
+
+.header {
+    padding: 50px 0 0 0;
+}
+
+.header__logo{
+    /*display: inline-block;*/
+}
+
+.menu__item {
+    display: inline-block;
+    /*margin-right: 10px;*/
+    font-family: Arial;
+    width: 150px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #626262;
+}
+
+.menu__link {
+    color: #9c9da0;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.header__menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+
+.main {
+    font-size: 0;
+}
+
+.main__left, .main__right {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+}
+
+.main__left {
+    width: 825px;
+    padding: 10px 0 0 100px;
+}
+
+.main__right {
+    box-sizing: border-box;
+    width: 425px;
+    padding-left: 65px;
+}
+
+.main__img-content{
+    border-image-width: auto;
+}
+
+.main__left-content-title {
+    display: inline-block;
+    margin: 0;
+    /*padding: 10px 0 0 100px;*/
+    font-family: Arial;
+    width: 900px;
+    font-size: 16px;
+    color: #b4ad9e;
+
+}
+
+
+.main__left-content-subtitle{
+    display: inline-block;
+    margin: 0;
+    /*padding: 10px 0 0 100px;*/
+    font-family: Arial;
+    width: 885px;
+    height: 150px;
+    font-size: 20px;
+    color: #626262;
+
+}
+
+.main__left-content-text {
+    margin: 0;
+    padding: 10px 0px;
+    font-family: Arial;
+    font-size: 18px;
+    color: #434244;
+    line-height: 28px;
+    width: 800px;
+    height: 331px;
+}
+
+.main__img-content-left{
+    padding-bottom: 20px;
+}
+
+.main__right-content-title{
+    margin: 10px 0 0 0;
+    width: 278px;
+    height: 40px;
+    font-size: 26px;
+    line-height: 20px;
+    color: #626262;
+    font-family: "Arial";
+}
+
+.main__right-content-text{
+    margin: 0;
+    width: 350px;
+    font-family: Arial;
+    font-size: 15px;
+    color: #434244;
+}
+
+.main__right-content-ul-title{
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: "Arial";
+}
+
+.main__right-content-li-marker{
+    width: 252px;
+    height: 21px;
+    font-size: 16px;
+    color: #626262;
+    font-family: "Arial";
+}
+
+.main__right-content-li{
+    list-style-type: none;
+    padding: 0;
+    width: 252px;
+    height: 42px;
+    font-size: 12px;
+    color: #b4ad9e;
+    font-family: "Arial";
+}
+
+
+.footer {
+    height: 97px;
+    background-color: #efefef;
+    padding: 40px 0 0 200px;
+    margin-right: 10px;
+    font-family: Arial;
+    font-size: 17px;
+}
+
