@@ -12,25 +12,26 @@ body {
 }
 
 .header__logo{
-    /*display: inline-block;*/
+    display: inline-block;
+    padding-right: 400px;
 }
 
 .menu__item {
     display: inline-block;
-    /*margin-right: 10px;*/
     font-family: Arial;
     width: 150px;
     height: 42px;
     font-size: 18px;
     line-height: 24px;
     color: #626262;
+    text-align: center;
+    margin-right: 40px;
+    padding-left: 25px;
 }
 
 .menu__link {
     color: #9c9da0;
     text-decoration: none;
-    margin-left: 100px;
-    margin-right: 200px;
 }
 
 .header__menu {
@@ -71,7 +72,7 @@ body {
     margin: 0;
     /*padding: 10px 0 0 100px;*/
     font-family: Arial;
-    width: 900px;
+    /*width: 900px;*/
     font-size: 16px;
     color: #b4ad9e;
 
@@ -80,24 +81,28 @@ body {
 
 .main__left-content-subtitle{
     display: inline-block;
+    /*font-weight: bolder;*/
     margin: 0;
     /*padding: 10px 0 0 100px;*/
     font-family: Arial;
-    width: 885px;
-    height: 150px;
-    font-size: 20px;
+    /*width: 885px;*/
+    /*height: 100px;*/
+    font-size: 35px;
     color: #626262;
+    /*padding-top: 50px;*/
+    padding: 30px 0 35px 0;
+
 
 }
 
 .main__left-content-text {
     margin: 0;
-    padding: 10px 0px;
+    padding: 10px 0px 200px 0;
     font-family: Arial;
     font-size: 18px;
     color: #434244;
     line-height: 28px;
-    width: 800px;
+    width: 820px;
     height: 331px;
 }
 
@@ -113,6 +118,7 @@ body {
     line-height: 20px;
     color: #626262;
     font-family: "Arial";
+    padding-top: 30px;
 }
 
 .main__right-content-text{
@@ -121,28 +127,37 @@ body {
     font-family: Arial;
     font-size: 15px;
     color: #434244;
+
 }
 
 .main__right-content-ul-title{
-    font-size: 14px;
+    font-size: 18px;
     color: #b4ad9e;
     font-family: "Arial";
+    padding: 30px 0 30px 0;
+
+}
+
+.main__right-content-ul{
+    padding-inline-start: 20px;
 }
 
 .main__right-content-li-marker{
     width: 252px;
     height: 21px;
-    font-size: 16px;
+    font-size: 20px;
     color: #626262;
     font-family: "Arial";
+    font-weight: bold;
+
 }
 
 .main__right-content-li{
     list-style-type: none;
-    padding: 0;
+    padding: 10px 0 0 0;
     width: 252px;
     height: 42px;
-    font-size: 12px;
+    font-size: 14px;
     color: #b4ad9e;
     font-family: "Arial";
 }
@@ -151,9 +166,12 @@ body {
 .footer {
     height: 97px;
     background-color: #efefef;
-    padding: 40px 0 0 200px;
+    padding: 60px 0 0 200px;
     margin-right: 10px;
     font-family: Arial;
-    font-size: 17px;
+    font-size: 18px;
 }
 
+.footer-span{
+    padding-left: 20px;
+}
