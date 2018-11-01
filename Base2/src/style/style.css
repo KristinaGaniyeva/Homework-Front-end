@@ -1,0 +1,76 @@
+.main {
+    background:  url(../images/bgmain.png) left center no-repeat;
+    height: 615px;
+}
+
+.main__img{
+    padding-left: 30px;
+
+}
+
+.p-adventures{
+    padding-top: 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Hind";
+    padding-left: 120px;
+}
+
+.p-gallery{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #212121;
+    font-family: "Montserrat";
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.p-january{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Hind";
+    padding-left: 100px;
+}
+
+.p-read{
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Hind";
+    padding-left: 100px;
+    width: 110px;
+    border-bottom: 1px solid;
+    border-top: 0.5px solid;
+}
+
+
+.p-read:hover{
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #d67900;
+}
+
+.icon{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.span-text{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Hind";
+    text-align: center;
+}
+
+.comm{
+    padding-top: 80px;
+}
