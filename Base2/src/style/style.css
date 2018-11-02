@@ -37,25 +37,39 @@
     padding-left: 100px;
 }
 
-.p-read{
+.button-read{
     font-size: 14px;
     letter-spacing: 3px;
     line-height: 24px;
     color: #999999;
     font-family: "Hind";
-    padding-left: 100px;
-    width: 110px;
-    border-bottom: 1px solid;
-    border-top: 0.5px solid;
+    width: 150px;
+    position: relative;
+    text-decoration: none;
+    padding: 1em;
+    outline: none;
+    border: 0px;
+    margin-left: 80px;
+    background-color: white;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
 }
 
-
-.p-read:hover{
-    font-size: 14px;
-    letter-spacing: 3px;
-    line-height: 24px;
-    color: #d67900;
+.button-read:hover{
+    border-top: 1px solid #d67900;;
+    border-bottom: 1px solid #d67900;;
 }
+
+/*.button-read:active {*/
+    /*background-image:*/
+            /*radial-gradient(45% 45% at 50% 100%, rgba(255,255,255,.9), rgba(255,255,255,0)),*/
+            /*linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.3));*/
+    /*box-shadow:*/
+            /*inset rgba(162,95,42,.4) 0 0 0 1px,*/
+            /*inset rgba(255,255,255,.9) 0 0 1px 3px;*/
+/*}*/
+
+
 
 .icon{
     padding-left: 30px;
