@@ -5,7 +5,9 @@ body {
 }
 
 .header {
-    margin: 80px 0 0 220px;
+    margin: 80px auto 0 auto;
+    height: 40px;
+    width: 900px;
 }
 
 .nav {
@@ -18,10 +20,6 @@ body {
     display: inline;
 }
 
-.nav__item:first-child {
-    margin-right: 350px;
-}
-
 
 .nav__logo{
     font-size: 42px;
@@ -29,10 +27,11 @@ body {
     color: #333333;
     font-weight: bold;
     font-style:  italic;
+    float:left;
 }
 
 .nav__link-search{
-
+    float:right;
 }
 
 .nav__link-search:hover{
@@ -49,6 +48,7 @@ body {
     position: relative;
     font-style:  normal;
     pointer-events: none;
+    float: right;
 }
 
 
@@ -61,6 +61,7 @@ body {
     text-transform: uppercase;
     position: relative;
     font-style:  normal;
+    float: right;
 }
 
 .nav__link-archive {
@@ -72,6 +73,7 @@ body {
     text-transform: uppercase;
     position: relative;
     font-style:  normal;
+    float: right;
 }
 
 .nav__link-archive:after {
@@ -98,6 +100,7 @@ body {
     text-transform: uppercase;
     position: relative;
     font-style:  normal;
+    float: right;
 }
 
 .nav__link-contact:active {
