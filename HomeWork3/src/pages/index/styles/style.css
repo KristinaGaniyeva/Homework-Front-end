@@ -4,88 +4,6 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-.header {
-    max-width: 950px;
-    width: 100%;
-    margin: auto;
-    padding: 80px 0;
-}
-
-.nav__menu-ticker {
-    display: none;
-}
-
-.header__nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-
-.nav__menu {
-    padding: 0;
-    display: flex;
-    list-style-type: none;
-    text-transform: uppercase;
-}
-
-.nav__menu-item{
-    padding: 0 17px;
-}
-
-
-.nav__link-search{
-float:right;
-}
-
-.nav__link-search:hover{
-background: url(../images/search-hover.png);
-}
-
-.nav__link-inactive {
-    font-size: 16px;
-    color: #bdbdbd;
-    text-decoration: none;
-    font-weight: 700;
-    text-transform: uppercase;
-    position: relative;
-    font-style:  normal;
-    pointer-events: none;
-    float: right;
-}
-
-
-.nav__link-normal{
-    font-size: 16px;
-    color: #000;
-    text-decoration: none;
-    font-weight: 700;
-    text-transform: uppercase;
-    position: relative;
-    font-style:  normal;
-    float: right;
-}
-
-.nav__link-normal:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: calc(100% + 4px);
-    height: 3px;
-    width: 0;
-    background-color: #5c6bc0;
-    transition: width 0.7s linear;
-}
-
-.nav__link-normal:hover:after {
-    width: 100%;
-}
-
-.nav__link-normal:active {
-color: #5c6bc0;
-}
-
-
 .main {
     display: flex;
     margin: 0 auto;
@@ -104,8 +22,6 @@ color: #5c6bc0;
     line-height: 50px;
     color: #bdbdbd;
     box-sizing: border-box;
-    /*display: flex;*/
-    /*flex-direction:column;*/
 }
 
 .content__header{
@@ -213,7 +129,7 @@ color: #5c6bc0;
     margin: 25px 10px 20px 0;
 }
 
-.content_footer {
+.content__footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -262,7 +178,7 @@ color: #5c6bc0;
 .content__text-span{
     color: #5c6bc0;
     position: relative;
-    }
+}
 
 .content__text-span:after {
     position: absolute;
@@ -290,125 +206,6 @@ color: #5c6bc0;
     color: #5c6bc0;
 }
 
-.footer {
-    margin-top: 120px;
-    padding-bottom: 50px;
-    width: 100%;
-    max-height: 530px;
-    height: 100%;
-    background-color: #5c6bc0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.footer__header {
-    padding-top: 65px;
-    font-size: 36px;
-    line-height: 25px;
-    color: #4a569a;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.footer__nav{
-    padding: 25px 0 0 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.footer__nav-item {
-    font-weight: 700;
-}
-
-
-.footer__nav-link-normal{
-    padding-left: 40px;
-    font-size: 16px;
-    color:  #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    position: relative;
-    font-style:  normal;
-}
-
-
-.footer__nav-search{
-    width: 15px;
-    height: 18px;
-}
-
-.footer__text{
-    color: #959ed6;
-    font-size: 13px;
-    line-height: 23px;
-    margin-top: 80px;
-    position: relative;
-    max-width: 750px;
-    align-content: center;
-    padding: 20px 0;
-    border-bottom: solid #5765b5 2px;
-    border-top: solid #5765b5 2px;
-    align-self: center;
-}
-
-.footer__copyright{
-    font-size: 14px;
-    line-height: 30px;
-    color: #959ed6;
-    margin-top: 75px;
-}
-
-.footer__link-developer{
-    font-size: 14px;
-    line-height: 30px;
-    font-weight: bold;
-    color: #ffffff;
-    position: relative;
-}
-
-.footer__social {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.social__item {
-    padding: 5px;
-    margin-right: 15px;
-}
-
-.social__link {
-    display: inline-block;
-    height: 22px;
-    width: 22px;
-}
-
-.social__link_facebook {
-    background: url("../images/facebook.png") no-repeat center;
-    background-size: 22px 22px;
-}
-
-.social__link_twitter {
-    background: url("../images/twitter.png") no-repeat center;
-    background-size: 22px 22px;
-}
-
-.social__link_instagram {
-    background: url("../images/instagram.png") no-repeat center;
-    background-size: 22px 22px;
-}
-
-.social__link_pinterest {
-    background: url("../images/pinterest.png") no-repeat center;
-    background-size: 22px 22px;
-}
 
 @media screen and (max-width: 480px) {
     .header {
